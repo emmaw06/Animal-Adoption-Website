@@ -1,0 +1,143 @@
+/*CSS*/
+/*Background colour */
+body {
+	background-color: #ccffcc;
+}
+
+/*Headings*/
+
+h1{
+	font-family:century-gothic;
+	color:#339966;
+	text-align:center;
+	display:block;
+}	
+
+h2{
+	font:impact;
+	color:#339966;
+	text-align:center;
+	display:block;
+}
+
+h3{
+	font:impact;
+	color:#e65c00;
+	text-align:center;
+	display:block;
+	font-size:25px;
+}
+
+/* Page header - ensure it always appears at the top of the page*/
+#fixed{
+	position:fixed;
+	display:block;
+	background-color: #ccffcc;
+}
+
+/*Navigation bar*/
+topnav{
+	padding-top:100px;
+	align-items:right;
+}
+
+/*Logo which appears on every page*/
+#logo{
+	display:inline;
+	float: left;
+	padding: 40px;
+	padding-bottom: 50px;
+	padding-top:10px;
+}
+
+/*Page header*/
+div{
+	font:impact;
+	color:#003300;
+	text-align:center;
+	font-size: 24px;
+	background-color:#339966;
+	width: 200%;
+	display:flex;
+	align-items: center;	
+}
+
+/*Elements of navigation bar*/
+li{
+	float: left;
+	display: block;
+}
+
+/*Links*/
+a:link {
+	color: #ffffff;
+	font: impact;
+	padding: 80px;
+}
+
+/*Links - ensuring visited links do not change appearance*/
+a:visited {
+	color: #ffffff;
+	font: impact;
+}
+
+/*Elements of navigation bar*/
+#ls{
+	color:#339966;
+	font:impact;
+	text-align:center;
+	font-size: 25px;
+}
+
+/*Text on home page etc.*/
+p{
+	display:block;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+/*Images on home page (alignment)*/
+#top{
+	display:block;
+	padding-bottom:0px;
+	padding-top: 10px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#bottom{
+	padding: 200px 200px;
+	display:block;
+	padding-top:20px;
+	display:flex;
+	justify-content: center;
+	align-items: center; 
+	float: center;	
+}
+
+#img{
+	margin-right:20px;
+	margin-left:20px;
+}
+	
+#line{
+	display:block;
+}
+
+/*Ensuring all content will be visible below the fixed page header*/
+#movedown{
+	display: block;
+	padding-top:200px;
+	align-items: center;
+}
+
+/*Any HTML forms*/
+form{
+	
+	font-family:century-gothic;
+	color: #339966;
+	font-size: 20px;
+}
+
+
